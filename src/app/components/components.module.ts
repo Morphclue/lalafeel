@@ -7,6 +7,7 @@ import {ComponentsRoutingModule} from './components-routing.module';
 import {ServicesComponent} from './services/services.component';
 import {RulesComponent} from './rules/rules.component';
 import {RanksComponent} from './ranks/ranks.component';
+import {FooterComponent} from './footer/footer.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import {RanksComponent} from './ranks/ranks.component';
     ServicesComponent,
     RulesComponent,
     RanksComponent,
+    FooterComponent,
   ],
   imports: [
     CommonModule,
