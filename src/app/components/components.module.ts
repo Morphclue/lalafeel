@@ -8,6 +8,7 @@ import {ServicesComponent} from './services/services.component';
 import {RulesComponent} from './rules/rules.component';
 import {RanksComponent} from './ranks/ranks.component';
 import {FooterComponent} from './footer/footer.component';
+import {NgbCollapseModule} from "@ng-bootstrap/ng-bootstrap";
 
 
 @NgModule({
@@ -19,10 +20,11 @@ import {FooterComponent} from './footer/footer.component';
     RanksComponent,
     FooterComponent,
   ],
-  imports: [
-    CommonModule,
-    ComponentsRoutingModule,
-  ],
+    imports: [
+        CommonModule,
+        ComponentsRoutingModule,
+        NgbCollapseModule,
+    ],
 })
 export class ComponentsModule {
 }
